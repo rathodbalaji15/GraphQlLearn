@@ -42,6 +42,7 @@ public class GraphQlLearnApplication implements CommandLineRunner {
 		this.bookService.create(b2);
 		this.bookService.create(b3);
 		System.out.println("Application working fine");
+		System.out.println("Dev branch merged in master");
 
 
 	}
