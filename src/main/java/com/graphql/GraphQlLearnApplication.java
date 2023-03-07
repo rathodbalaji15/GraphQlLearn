@@ -41,6 +41,7 @@ public class GraphQlLearnApplication implements CommandLineRunner {
 		this.bookService.create(b1);
 		this.bookService.create(b2);
 		this.bookService.create(b3);
+		System.out.println("Application working fine");
 
 
 	}
